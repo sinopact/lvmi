@@ -1,0 +1,114 @@
+<?php
+/**
+ * Created by Atomic.
+ * User: Sinopact
+ * Date: 2017/8/18
+ * Time: 12:00
+ */
+
+
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+        <link rel="stylesheet" href="lib/weui.css">
+        <link rel="stylesheet" href="css/jquery-weui.css">
+        <link rel="stylesheet" href="css/demos.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <title> 登陆 </title>
+
+    </head>
+    <body ontouchstart>
+
+    <div class="weui-tab">
+        <div class="weui-tab__bd">
+            <div id="login" class="weui-tab__bd-item weui-tab__bd-item--active">
+                <header class='demos-header'>
+                    <h1 class="demos-title">用户登录</h1>
+                </header>
+                <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd"><label for="username" class="weui-label"><i class='fa fa-user-o'></i> 用户名</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" id="username" type="text" value="" placeholder="输入用户名">
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd"><label for="password" class="weui-label"><i class="fa fa-unlock-alt" aria-hidden="true"></i> &nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码</label></div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" id="password" type="password" value="" placeholder="输入用密码">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="weui-btn weui-btn_primary" style="width:96%;font-size: 14px;margin-top:15px;">登陆</button>
+                <a href="register.html" class="weui-btn weui-btn_default" style="width:96%;font-size: 14px;margin-top:15px;">注册新用户</a>
+                <!-- 此处为了方便静态页面跳转，所以用了a标签，可以替换-->
+
+
+
+            </div>
+        </div>
+
+        <div class="weui-tabbar">
+            <a href="index.html" class="weui-tabbar__item weui-bar__item--on">
+
+                <div class="weui-tabbar__icon">
+                    <!--<img src="images/icon_nav_button.png" alt="">-->
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </div>
+                <p class="weui-tabbar__label">首页</p>
+            </a>
+            <a href="#tab2" class="weui-tabbar__item">
+                <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+                <div class="weui-tabbar__icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <!--<img src="./images/icon_nav_msg.png" alt="">-->
+                </div>
+                <p class="weui-tabbar__label">消息</p>
+            </a>
+            <a href="#tab3" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="./images/icon_nav_article.png" alt="">
+                </div>
+                <p class="weui-tabbar__label">客服</p>
+            </a>
+            <a href="usercenter.html" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <!--<img src="./images/icon_nav_cell.png" alt="">-->
+                </div>
+                <p class="weui-tabbar__label">我的</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="lib/jquery-2.1.4.js"></script>
+    <script src="lib/fastclick.js"></script>
+    <script>
+        $(function() {
+            FastClick.attach(document.body);
+        });
+    </script>
+    <script src="../js/jquery-weui.js"></script>
+
+    <script>
+        $("#a").select({
+            title: "选择职业",
+            items: ["法官", "医生", "猎人", "学生", "记者", "其他"]
+        });
+    </script>
+    </body>
+
+
+</html>

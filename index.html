@@ -1,0 +1,399 @@
+<?php
+/**
+ * Created by Atomic.
+ * User: Sinopact
+ * Date: 2017/8/18
+ * Time: 12:00
+ */
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+
+    <link rel="stylesheet" href="lib/weui.css">
+    <link rel="stylesheet" href="css/jquery-weui.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/demos.css">
+    <title> Home </title>
+    <style>
+        .placeholder {
+            margin: 5px;
+            padding: 0 10px;
+            background-color: #ebebeb;
+            height: 2.3em;
+            line-height: 2.3em;
+            text-align: center;
+            color: #cfcfcf;
+        }
+    </style>
+</head>
+<body ontouchstart>
+
+<div class="weui-tab">
+    <div class="weui-tab__bd">
+        <div id="home"class="weui-tab__bd-item weui-tab__bd-item--active">
+<!--            <div class="weui-search-bar" id="searchBar" >
+                <form class="weui-search-bar__form">
+                    <div class="weui-search-bar__box">
+                        <i class="weui-icon-search"></i>
+                        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                    </div>
+                    <label class="weui-search-bar__label" id="searchText">
+                        <i class="weui-icon-search"></i>
+                        <span>搜索</span>
+                    </label>
+                </form>
+                <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+            </div>-->
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./images/swiper-1.jpg" /></div>
+                    <div class="swiper-slide"><img src="./images/swiper-2.jpg" /></div>
+                    <div class="swiper-slide"><img src="./images/swiper-3.jpg" /></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+            <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label for="type" class="weui-label">定制类型</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="type" type="text" value="" placeholder="请选择定制类型">
+                    </div>
+                </div>
+            </div>
+
+            <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd">
+                        <label for="start" class="weui-label">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i> 发出地
+                        </label>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="start" type="text" value="" placeholder="选择出发地">
+                    </div>
+                </div>
+
+                <div class="weui-cell">
+                    <div class="weui-cell__hd">
+                        <label for="end" class="weui-label">
+                            <i class="fa fa-map-signs" aria-hidden="true"></i> 目的地
+                        </label>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="end" type="text" value="" placeholder="选择目的地">
+                    </div>
+                </div>
+            </div>
+            <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd">
+                        <label for="start-date" class="weui-label">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> 出发日期
+                        </label>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="start-date" type="text" placeholder="选择出发日期">
+                    </div>
+                </div>
+                <div class="weui-cell">
+                    <div class="weui-cell__hd">
+                        <label for="start-date" class="weui-label">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i> 返回日期
+                        </label>
+                    </div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="end-date" type="text" placeholder="选择返回日期">
+                    </div>
+                </div>
+
+                <div class="weui-cell weui-cells_checkbox" style="padding: 0px 0px;">
+                    <label class="weui-cell weui-check__label" for="s11">
+                        <div class="weui-cell__hd">
+                            <input type="checkbox" class="weui-check" name="checkbox1" id="s11" checked="checked">
+                            <i class="weui-icon-checked"></i>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <p>时间可调整</p>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                <div class="weui-flex">
+                    <div class="weui-cell weui-flex__item" style="border-right:1px solid #ddd;">
+                        <div class="weui-cell__bd">
+                            <i class="fa fa-male" aria-hidden="true"></i> 成人<input class="weui-input" id="adult" type="text" value="" style="border:1px solid #ddd;padding: 2px 2px;" placeholder="请选择成人位数">
+                        </div>
+                    </div>
+                    <div class="weui-cell weui-flex__item">
+                        <div class="weui-cell__bd">
+                            <i class="fa fa-child" aria-hidden="true"></i> 儿童<input class="weui-input" id="child" type="text" value="" style="border:1px solid #ddd;padding: 2px 2px;" placeholder="请选择儿童位数">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
+                <div class="weui-cell">
+                    <div class="weui-cell__hd"><label for="name" class="weui-label"><i class="fa fa-pie-chart" aria-hidden="true"></i> 人均预算</label></div>
+                    <div class="weui-cell__bd">
+                        <input class="weui-input" id="budget" type="text" value="" placeholder="请输入人均预算">
+                    </div>
+                </div>
+            </div>
+            <button class="weui-btn weui-btn_primary" style="width:auto !important;font-size: 14px;margin-top: 10px;margin-right: 15px;float:right;"><i class="fa fa-question-circle" aria-hidden="true"></i> 了解服务流程</button>
+            <a href="request_order.html" class="weui-btn weui-btn_primary" style="width:96%;font-size: 14px;margin-top: 65px;">下一步</a>
+            <div style="height: 65px;"></div>
+        </div>
+    </div>
+
+    <div class="weui-tabbar">
+        <a href="index.html" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <!--<img src="./images/icon_nav_msg.png" alt="">-->
+            </div>
+            <p class="weui-tabbar__label">消息</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="./images/icon_nav_article.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">客服</p>
+        </a>
+        <a href="usercenter.html" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="lib/jquery-2.1.4.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="js/city-picker.js"></script>
+<script>
+    $(function() {
+        FastClick.attach(document.body);
+    });
+</script>
+<script src="js/jquery-weui.js"></script>
+<script src="js/swiper.js"></script>
+
+<script>
+    $(".swiper-container").swiper({
+        loop: true,
+        nextButton: 'swiper-button-next',
+        prevButton: 'swiper-button-prev',
+        autoplay: 1000
+    });
+
+    $("#start").cityPicker({
+        title: "选择出发地",
+        onChange: function (picker, values, displayValues) {
+            console.log(values, displayValues);
+        }
+    });
+    $("#end").cityPicker({
+        title: "选择目的地"
+    });
+    $("#home-city").cityPicker({
+        title: "选择目的地",
+        showDistrict: false,
+        onChange: function (picker, values, displayValues) {
+            console.log(values, displayValues);
+        }
+    });
+
+    $("#start-date").calendar({
+        onChange: function (p, values, displayValues) {
+            console.log(values, displayValues);
+        }
+    });
+    $("#end-date").calendar({
+        onChange: function (p, values, displayValues) {
+            console.log(values, displayValues);
+        }
+    });
+    // 成人个数和儿童个数选择
+    $("#adult").select({
+        title: "选择人数",
+        items: ["1", "2","3","4","5","6","7","8","9","10"],
+        onChange: function(d) {
+            console.log(this, d);
+        },
+        onClose: function() {
+            console.log("close");
+        },
+        onOpen: function() {
+            console.log("open");
+        },
+    });
+    $("#child").select({
+        title: "选择人数",
+        items: ["1", "2","3","4","5"],
+        onChange: function(d) {
+            console.log(this, d);
+        },
+        onClose: function() {
+            console.log("close");
+        },
+        onOpen: function() {
+            console.log("open");
+        },
+    });
+    $("#budget").select({
+        title: "选择预算",
+        items: ["不限", "500","1000","3000","5000","10000","10000+"],
+        onChange: function(d) {
+            console.log(this, d);
+        },
+        onClose: function() {
+            console.log("close");
+        },
+        onOpen: function() {
+            console.log("open");
+        },
+    });
+</script>
+<script>
+    $("#type").select({
+        title: "选择类型",
+        items: ["个人定制", "公司定制"],
+        onChange: function(d) {
+            console.log(this, d);
+        },
+        onClose: function() {
+            console.log("close");
+        },
+        onOpen: function() {
+            console.log("open");
+        },
+    });
+    $("#mobile").select({
+        title: "选择手机",
+        items: [
+            {
+                title: "iPhone 3GS",
+                value: "001",
+            },
+            {
+                title: "iPhone 5",
+                value: "002",
+            },
+            {
+                title: "iPhone 5S",
+                value: "003",
+            },
+            {
+                title: "iPhone 6",
+                value: "004",
+            },
+            {
+                title: "iPhone 6S",
+                value: "005",
+            },
+            {
+                title: "iPhone 6P",
+                value: "006",
+            },
+            {
+                title: "iPhone 6SP",
+                value: "007",
+            },
+            {
+                title: "iPhone SE",
+                value: "008",
+            },
+            {
+                title: "iPhone 7",
+                value: "009"
+            }
+        ]
+    });
+    $("#in").select({
+        title: "您的爱好",
+        multi: true,
+        min: 2,
+        max: 3,
+        items: [
+            {
+                title: "画画",
+                value: 1,
+                description: "额外的数据1"
+            },
+            {
+                title: "打球",
+                value: 2,
+                description: "额外的数据2"
+            },
+            {
+                title: "唱歌",
+                value: 3,
+                description: "额外的数据3"
+            },
+            {
+                title: "游泳",
+                value: 4,
+                description: "额外的数据4"
+            },
+            {
+                title: "健身",
+                value: 5,
+                description: "额外的数据5"
+            },
+            {
+                title: "睡觉",
+                value: 6,
+                description: "额外的数据6"
+            },
+        ],
+        beforeClose: function(values, titles) {
+            if(values.indexOf("6") !== -1) {
+                $.toast("不能选睡觉", "cancel");
+                return false;
+            }
+            return true;
+        },
+        onChange: function(d) {
+            console.log(this, d);
+        },
+        onClose: function (d) {
+            console.log('close')
+        }
+    });
+</script>
+
+</body>
+
+
+</html>
+
