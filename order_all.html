@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/jquery-weui.css">
         <link rel="stylesheet" href="css/demos.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <title> 我的 </title>
+        <title> 全部订单 </title>
     <style>
     .weui-user-grid {
         position: relative;
@@ -63,60 +63,29 @@
     <div class="weui-tab">
         <div class="weui-tab__bd">
             <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
-                <header class='demos-header'>
-                    <h1 class="demos-title">
-                        <img src="./images/avatar.jpg" style="width:90px;border-radius: 50%;">
-                    </h1>
-                    <p class='demos-sub-title'><button class="weui-btn weui-btn_mini weui-btn_default">登陆</button></p>
-                    <div style="position: absolute;top:10px;right:15px;"><a href="" style="font-size: 1.5em"><i class="fa fa-cog" aria-hidden="true"></i></a></div>
-                </header>
-                <div class="weui-cells__title">我的订单</div>
-                <div class="weui-grids">
-                    <a href="order_all.html" class="weui-user-grid js_grid">
-                        <div class="weui-grid__icon">
-                            <img src="images/icon_nav_button.png" alt="">
+                <div class="weui-cells__title">全部订单</div>
+                <div class="weui-cells">
+                    <div class="weui-cell">
+                        <div class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                            <img src="images/pic_160.png" style="width: 50px;display: block">
                         </div>
-                        <p class="weui-grid__label">
-                            全部订单
-                        </p>
-                    </a>
-                    <a href="cell.html" class="weui-user-grid js_grid">
-                        <div class="weui-grid__icon">
-                            <img src="images/icon_nav_cell.png" alt="">
+                        <div class="weui-cell__bd">
+                            <span><i class="fa fa-flag" aria-hidden="true"></i> 北京-美国/7天*定制游</span>
+                            <span class="weui-badge" style="margin-left: 5px;">方案制作中</span>
+                            <p style="font-size: 13px;color: #888888;">
+                                <button class="weui-btn weui-btn_mini weui-btn_primary" style="height: 20px;line-height: 20px;">勾搭</button>
+
+                            </p>
                         </div>
-                        <p class="weui-grid__label">
-                            待支付
-                        </p>
-                    </a>
-                    <a href="form.html" class="weui-user-grid js_grid">
-                        <div class="weui-grid__icon">
-                            <img src="images/icon_nav_cell.png" alt="">
-                        </div>
-                        <p class="weui-grid__label">
-                            待出发
-                        </p>
-                    </a>
-                    <a href="flex.html" class="weui-user-grid js_grid">
-                        <div class="weui-grid__icon">
-                            <img src="images/icon_nav_cell.png" alt="">
-                        </div>
-                        <p class="weui-grid__label">
-                            待点评
-                        </p>
-                    </a>
+                    </div>
+
                 </div>
-                <div class="weui-cells__title">快速入口</div>
-                <div class="weui-flex">
-<!--                    <div class="weui-flex__item"><div class="placeholder">weui</div></div>
-                    <div class="weui-flex__item"><div class="placeholder">weui</div></div>-->
-                    <div class="weui-flex__item"><a class="weui-btn weui-btn_primary" style="width:80%;height:40px;line-height: 40px;">大代理商入口</a></div>
-                    <div class="weui-flex__item"><a class="weui-btn weui-btn_primary" style="width:80%;height:40px;line-height: 40px;">旅游顾问入口</a></div>
-                </div>
+
             </div>
         </div>
 
         <div class="weui-tabbar">
-            <a href="index.html" class="weui-tabbar__item">
+            <a href="index.html" class="weui-tabbar__item weui-bar__item--on">
 
                 <div class="weui-tabbar__icon">
                     <!--<img src="images/icon_nav_button.png" alt="">-->
@@ -138,7 +107,7 @@
                 </div>
                 <p class="weui-tabbar__label">客服</p>
             </a>
-            <a href="usercenter.html" class="weui-tabbar__item weui-bar__item--on">
+            <a href="usercenter.html" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <!--<img src="./images/icon_nav_cell.png" alt="">-->
