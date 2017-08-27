@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99000e85-9c1c-45f5-bc10-b8fb000d17a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order_all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal-example.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demos.css" afterPath="$PROJECT_DIR$/css/demos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/request_order.html" afterPath="$PROJECT_DIR$/request_order.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usercenter.html" afterPath="$PROJECT_DIR$/usercenter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/waiting_for_order_recieve.html" afterPath="$PROJECT_DIR$/waiting_for_order_recieve.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usercenter.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usercenter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/usercenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="118" column="57" lean-forward="false" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
+            <state relative-caret-position="99">
+              <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -67,6 +60,16 @@
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal-example.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modal-example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,6 +154,7 @@
         <option value="$PROJECT_DIR$/css/demos.css" />
         <option value="$PROJECT_DIR$/order_all.html" />
         <option value="$PROJECT_DIR$/usercenter.html" />
+        <option value="$PROJECT_DIR$/modal-example.html" />
       </list>
     </option>
   </component>
@@ -249,12 +253,12 @@
       <workItem from="1503028824623" duration="9272000" />
       <workItem from="1503109089233" duration="34385000" />
       <workItem from="1503536344370" duration="608000" />
-      <workItem from="1503801366927" duration="11226000" />
+      <workItem from="1503801366927" duration="12369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55491000" />
+    <option name="totallyTimeSpent" value="56634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -507,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/usercenter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="118" column="57" lean-forward="false" selection-start-line="118" selection-start-column="57" selection-end-line="118" selection-end-column="57" />
+        <state relative-caret-position="99">
+          <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -516,6 +520,14 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
