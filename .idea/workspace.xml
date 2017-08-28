@@ -2,69 +2,212 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99000e85-9c1c-45f5-bc10-b8fb000d17a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/UserFrontEnd/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/demos.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/demos.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery-weui.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery-weui.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/avatar.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/avatar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_actionSheet.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_actionSheet.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_article.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_article.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_button.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_button.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_calendar.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_calendar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_cell.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_cell.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_city.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_city.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_datetime.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_datetime.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_dialog.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_dialog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_icons.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_icons.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_msg.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_msg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_new.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_new.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_noti.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_noti.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_panel.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_panel.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_photo.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_picker.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_picker.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_progress.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_progress.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_ptr.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_ptr.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_search_bar.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_search_bar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_select.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_select.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_swiper.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_swiper.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_tab.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_tab.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_toast.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_toast.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_up.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pic_160.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/pic_160.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pic_article.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/pic_article.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/present.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/present.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-1.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-2.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-3.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-4.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vcode.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/vcode.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/UserFrontEnd/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/city-picker.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/city-picker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/city-picker.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/city-picker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-weui.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/jquery-weui.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-weui.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/jquery-weui.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/swiper.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/swiper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/swiper.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/swiper.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/fastclick.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/fastclick.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/jquery-2.1.4.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/jquery-2.1.4.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/weui.css" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/weui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/weui.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/weui.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/zepto.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/zepto.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/UserFrontEnd/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modal-example.html" afterPath="$PROJECT_DIR$/UserFrontEnd/modal-example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/order_all.html" afterPath="$PROJECT_DIR$/UserFrontEnd/order_all.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/UserFrontEnd/register.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/request_order.html" afterPath="$PROJECT_DIR$/UserFrontEnd/request_order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/usercenter.html" afterPath="$PROJECT_DIR$/UserFrontEnd/usercenter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/waiting_for_order_recieve.html" afterPath="$PROJECT_DIR$/UserFrontEnd/waiting_for_order_recieve.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/font/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/body.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/breadcrumbs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/contentTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/side.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/sidebar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/backgrounds/top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/demo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/dropFiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/colorPicker/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/control/hasddArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/control/headSubmit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/control/resultsarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/control/rightArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/control/subnav_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/forms/addFiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/forms/checkboxes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/forms/radios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/forms/selectArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/lightbox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/lightbox/fancybox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/10s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/1s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/2s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/3s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/4s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/5s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/6s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/7s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/8s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/loaders/9s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/contact_status.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/dropTopArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/dropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/fileError.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/fileSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/grown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/iButton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/iTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/messageArrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/messageArrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/removeLi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/tableArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/taskDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/taskPending.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/taskProgress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/updateDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/updateNotice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/updateWarning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/other/userArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/ui/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/ui/triangles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/uploader/drag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/wysiwyg/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/wysiwyg/buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/elements/wysiwyg/toolbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/breadsArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/breadsHome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/color/config.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/color/donate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/color/hire-me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/color/issue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/color/order-149.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/dashboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/forms.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/other.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/tables.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/mainnav/ui.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/middlenav/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/middlenav/create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/middlenav/dialogs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/middlenav/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/middlenav/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/options" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/quickstats/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/quickstats/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/sidebarButtons/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/messages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usernav/sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/icons/usual/icon-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/live/face7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/newLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/sprites/paymentIcons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/sprites/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/subArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/switcher/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/tables/searchSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/tables/sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/tables/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/images/widgetDiv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/datatable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/elfinder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/plugins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/css/ui_custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/bar_side.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/chart_side.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/hBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/hBar_side.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/charts/updating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/files/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/files/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/files/roundLoader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/jquery.flot.orderBars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/charts/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/autogrowtextarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/chosen.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.autotab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.chosen.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.cleditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.cleditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.dualListBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.ibutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.inputlimiter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.maskedinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.uniform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.validationEngine-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/jquery.validationEngine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/ui.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/forms/uniform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/others/jquery.elfinder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/others/jquery.fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/tables/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/tables/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/tables/jquery.sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.breadcrumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.collapsible.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.easytabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.fileTree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.jgrowl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.rounded.progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.sourcerer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.timeentry.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/ui/jquery.tipsy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/uploader/jquery.plupload.queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/uploader/plupload.html4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/uploader/plupload.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/uploader/plupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/wizards/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/wizards/jquery.form.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/js/plugins/wizards/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/php/KickassGFX.net - source.URL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/php/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/php/connector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TailorFrontEnd/php/elFinder.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -269,6 +412,7 @@
       <recent name="D:\git\Lvmi\UserFrontEnd" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\Lvmi\TailorFrontEnd" />
       <recent name="D:\git\Lvmi" />
       <recent name="D:\git\Lvmi\images" />
       <recent name="D:\git\Lvmi\css" />
@@ -303,12 +447,12 @@
       <workItem from="1503109089233" duration="34385000" />
       <workItem from="1503536344370" duration="608000" />
       <workItem from="1503801366927" duration="12968000" />
-      <workItem from="1503881964606" duration="2357000" />
+      <workItem from="1503881964606" duration="2635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59590000" />
+    <option name="totallyTimeSpent" value="59868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
