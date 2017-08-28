@@ -10,40 +10,70 @@
         <link rel="stylesheet" href="css/jquery-weui.css">
         <link rel="stylesheet" href="css/demos.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <title> 登陆 </title>
+        <title> 注册 </title>
 
     </head>
     <body ontouchstart>
 
     <div class="weui-tab">
         <div class="weui-tab__bd">
-            <div id="login" class="weui-tab__bd-item weui-tab__bd-item--active">
+            <div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">
                 <header class='demos-header'>
-                    <h1 class="demos-title">用户登录</h1>
+                    <h1 class="demos-title">用户注册</h1>
                 </header>
-                <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
-                    <div class="weui-cell">
-                        <div class="weui-cell__hd"><label for="username" class="weui-label"><i class='fa fa-user-o'></i> 用户名</label></div>
+
+
+                <div class="weui-cells">
+
+                    <div class="weui-cell weui-cell_select weui-cell_select-before">
+                        <div class="weui-cell__hd">
+                            <select class="weui-select" name="select2">
+                                <option value="1">+86</option>
+                                <option value="2">+80</option>
+                                <option value="3">+84</option>
+                                <option value="4">+87</option>
+                            </select>
+                        </div>
                         <div class="weui-cell__bd">
-                            <input class="weui-input" id="username" type="text" value="" placeholder="输入用户名">
+                            <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入手机号码">
                         </div>
                     </div>
                 </div>
-                <div class="weui-cells weui-cells_form" style="margin-top: 0.17647059em !important;">
-                    <div class="weui-cell">
-                        <div class="weui-cell__hd"><label for="password" class="weui-label"><i class="fa fa-unlock-alt" aria-hidden="true"></i> &nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码</label></div>
+
+                <div class="weui-cells">
+                    <div class="weui-cell weui-cell_vcode">
+                        <div class="weui-cell__hd">
+                            <label class="weui-label">验证码</label>
+                        </div>
                         <div class="weui-cell__bd">
-                            <input class="weui-input" id="password" type="password" value="" placeholder="输入用密码">
+                            <input class="weui-input" type="number" placeholder="请输入验证码">
+                        </div>
+                        <div class="weui-cell__ft">
+                            <button class="weui-btn weui-btn_primary">获取验证码</button>
+                        </div>
+                    </div>
+
+
+                    <div class="weui-cell weui-cell_vcode">
+                        <div class="weui-cell__hd" style="height: 44px;">
+                            <label for="" class="weui-label" style="line-height: 44px;">密码</label>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" type="password" placeholder="请输入密码">
+                        </div>
+                    </div>
+
+                    <div class="weui-cell weui-cell_vcode">
+                        <div class="weui-cell__hd" style="height: 44px;">
+                            <label for="" class="weui-label" style="line-height: 44px;">邀请人</label>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" type="number" pattern="[0-9]*" placeholder="平台专属旅游顾问手机号码">
                         </div>
                     </div>
                 </div>
 
-                <button class="weui-btn weui-btn_primary" style="width:96%;font-size: 14px;margin-top:15px;">登陆</button>
-                <a href="register.html" class="weui-btn weui-btn_default" style="width:96%;font-size: 14px;margin-top:15px;">注册新用户</a>
-                <!-- 此处为了方便静态页面跳转，所以用了a标签，可以替换-->
-
-
-
+                <button class="weui-btn weui-btn_primary" style="width:96%;font-size: 14px;margin-top:15px;">注册并登陆</button>
             </div>
         </div>
 
@@ -66,7 +96,7 @@
             </a>
             <a href="#tab3" class="weui-tabbar__item">
                 <div class="weui-tabbar__icon">
-                    <img src="./images/icon_nav_article.png" alt="">
+                    <img src="images/icon_nav_article.png" alt="">
                 </div>
                 <p class="weui-tabbar__label">客服</p>
             </a>

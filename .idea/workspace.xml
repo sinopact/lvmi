@@ -2,9 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99000e85-9c1c-45f5-bc10-b8fb000d17a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal-example.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usercenter.html" afterPath="$PROJECT_DIR$/usercenter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/UserFrontEnd/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/demos.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/demos.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery-weui.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jquery-weui.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/UserFrontEnd/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/avatar.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/avatar.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_actionSheet.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_actionSheet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_article.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_article.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_button.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_calendar.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_calendar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_cell.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_cell.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_city.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_city.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_datetime.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_datetime.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_dialog.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_dialog.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_icons.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_msg.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_msg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_new.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_noti.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_noti.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_panel.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_panel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_photo.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_picker.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_picker.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_progress.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_progress.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_ptr.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_ptr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_search_bar.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_search_bar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_select.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_select.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_swiper.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_swiper.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_tab.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_tab.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_toast.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_toast.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icon_nav_up.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/icon_nav_up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pic_160.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/pic_160.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pic_article.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/pic_article.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/present.png" afterPath="$PROJECT_DIR$/UserFrontEnd/images/present.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-1.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-2.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-3.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/swiper-4.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/swiper-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/vcode.jpg" afterPath="$PROJECT_DIR$/UserFrontEnd/images/vcode.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/UserFrontEnd/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/city-picker.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/city-picker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/city-picker.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/city-picker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-weui.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/jquery-weui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery-weui.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/jquery-weui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/swiper.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/swiper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/swiper.min.js" afterPath="$PROJECT_DIR$/UserFrontEnd/js/swiper.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/fastclick.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/fastclick.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/jquery-2.1.4.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/jquery-2.1.4.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/weui.css" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/weui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/weui.min.css" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/weui.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/zepto.js" afterPath="$PROJECT_DIR$/UserFrontEnd/lib/zepto.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/UserFrontEnd/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/modal-example.html" afterPath="$PROJECT_DIR$/UserFrontEnd/modal-example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/order_all.html" afterPath="$PROJECT_DIR$/UserFrontEnd/order_all.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/UserFrontEnd/register.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/request_order.html" afterPath="$PROJECT_DIR$/UserFrontEnd/request_order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/usercenter.html" afterPath="$PROJECT_DIR$/UserFrontEnd/usercenter.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/waiting_for_order_recieve.html" afterPath="$PROJECT_DIR$/UserFrontEnd/waiting_for_order_recieve.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1006">
+              <caret line="105" column="28" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
               <folding>
                 <element signature="e#1849#1855#0" expanded="true" />
                 <element signature="e#1856#1862#0" expanded="true" />
@@ -34,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -49,10 +109,10 @@
         </entry>
       </file>
       <file leaf-file-name="usercenter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usercenter.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/usercenter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+            <state relative-caret-position="209">
+              <caret line="129" column="52" lean-forward="false" selection-start-line="129" selection-start-column="52" selection-end-line="129" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -64,20 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal-example.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modal-example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="order_all.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order_all.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/order_all.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="1425">
               <caret line="75" column="126" lean-forward="false" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,7 +141,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -101,7 +151,7 @@
         </entry>
       </file>
       <file leaf-file-name="request_order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/request_order.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/request_order.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -116,7 +166,7 @@
         </entry>
       </file>
       <file leaf-file-name="waiting_for_order_recieve.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/waiting_for_order_recieve.html">
+        <entry file="file://$PROJECT_DIR$/UserFrontEnd/waiting_for_order_recieve.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -147,7 +197,6 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/request_order.php" />
         <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/request_order.html" />
         <option value="$PROJECT_DIR$/waiting_for_order_recieve.html" />
@@ -155,6 +204,8 @@
         <option value="$PROJECT_DIR$/order_all.html" />
         <option value="$PROJECT_DIR$/usercenter.html" />
         <option value="$PROJECT_DIR$/modal-example.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/UserFrontEnd/login.html" />
       </list>
     </option>
   </component>
@@ -194,6 +245,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,17 +254,10 @@
               <item name="Lvmi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lvmi" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Lvmi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lvmi" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,6 +265,9 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\Lvmi\UserFrontEnd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\Lvmi" />
       <recent name="D:\git\Lvmi\images" />
@@ -253,27 +302,27 @@
       <workItem from="1503028824623" duration="9272000" />
       <workItem from="1503109089233" duration="34385000" />
       <workItem from="1503536344370" duration="608000" />
-      <workItem from="1503801366927" duration="12369000" />
+      <workItem from="1503801366927" duration="12968000" />
+      <workItem from="1503881964606" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56634000" />
+    <option name="totallyTimeSpent" value="59590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -294,7 +343,101 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1849#1855#0" expanded="true" />
+            <element signature="e#1856#1862#0" expanded="true" />
+            <element signature="e#1862#1868#0" expanded="true" />
+            <element signature="e#1868#1874#0" expanded="true" />
+            <element signature="e#1874#1880#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/usercenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/order_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="126" lean-forward="false" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/request_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/waiting_for_order_recieve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/modal-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="93" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
@@ -310,7 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3021">
           <caret line="159" column="38" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
@@ -318,7 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_order.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/request_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
@@ -331,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1767">
           <caret line="93" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
@@ -347,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3021">
           <caret line="159" column="38" lean-forward="false" selection-start-line="159" selection-start-column="38" selection-end-line="159" selection-end-column="38" />
@@ -355,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_order.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/request_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1330">
           <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
@@ -368,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1767">
           <caret line="93" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
@@ -384,14 +527,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery-weui.css">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15789">
           <caret line="831" column="0" lean-forward="true" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1805">
           <caret line="95" column="61" lean-forward="true" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
@@ -399,14 +542,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery-weui.css">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/css/jquery-weui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15789">
           <caret line="831" column="0" lean-forward="false" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
@@ -414,7 +557,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php" />
-    <entry file="file://$PROJECT_DIR$/js/city-picker.js">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/js/city-picker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8132">
           <caret line="16686" column="28" lean-forward="true" selection-start-line="16686" selection-start-column="28" selection-end-line="16686" selection-end-column="28" />
@@ -422,14 +565,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/weui.css">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/lib/weui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="181" column="1" lean-forward="true" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -442,23 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1849#1855#0" expanded="true" />
-            <element signature="e#1856#1862#0" expanded="true" />
-            <element signature="e#1862#1868#0" expanded="true" />
-            <element signature="e#1868#1874#0" expanded="true" />
-            <element signature="e#1874#1880#0" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waiting_for_order_recieve.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/waiting_for_order_recieve.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -466,7 +593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request_order.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/request_order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -479,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/demos.css">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/css/demos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
@@ -487,7 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -495,9 +622,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order_all.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/order_all.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="1425">
           <caret line="75" column="126" lean-forward="false" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -509,10 +636,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usercenter.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/modal-example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="119" column="47" lean-forward="false" selection-start-line="119" selection-start-column="47" selection-end-line="119" selection-end-column="47" />
+        <state relative-caret-position="745">
+          <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/usercenter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="129" column="52" lean-forward="false" selection-start-line="129" selection-start-column="52" selection-end-line="129" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h1#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -523,11 +658,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modal-example.html">
+    <entry file="file://$PROJECT_DIR$/UserFrontEnd/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="1006">
+          <caret line="105" column="28" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+          <folding>
+            <element signature="e#1849#1855#0" expanded="true" />
+            <element signature="e#1856#1862#0" expanded="true" />
+            <element signature="e#1862#1868#0" expanded="true" />
+            <element signature="e#1868#1874#0" expanded="true" />
+            <element signature="e#1874#1880#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
