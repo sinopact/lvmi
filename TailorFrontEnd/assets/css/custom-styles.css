@@ -27,7 +27,7 @@ body {
     margin:10px 20px 10px 0px;
     background-color:transparent;
     padding: 15px 30px;
-    min-height:1200px;
+    min-height:1100px;
 }
 .header .container-fluid{
 padding:0;
@@ -547,7 +547,7 @@ line-height: 1.428571429;
      #page-wrapper{
                margin: 0 0 0 260px;
                padding: 0;
-               min-height: 1200px;
+               min-height: 460px;
     }
 	
 	
