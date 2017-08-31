@@ -3,12 +3,14 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title> 待提供方案 - 订单管理 </title>
+    <title> 我的库 - 方案管理 </title>
 
     <link href="assets/css/material.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css" media="screen,projection"/>
     <!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- Bootstrap Datetime Pickup Styles-->
+    <link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet"/>
     <!-- FontAwesome Styles-->
     <link href="assets/css/font-awesome.css" rel="stylesheet"/>
     <!-- Morris Chart Styles-->
@@ -181,7 +183,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="orders_w_scheme.html" class="active-menu waves-effect waves-dark">
+                    <a href="orders_w_scheme.html" class="waves-effect waves-dark">
                         <i class="fa fa-bar-chart-o"></i> 订单管理
                     </a>
                 </li>
@@ -192,7 +194,7 @@
                 </li>
 
                 <li>
-                    <a href="scheme_mine.html" class="waves-effect waves-dark">
+                    <a href="scheme_mine.html" class="active-menu waves-effect waves-dark">
                         <i class="fa fa-table"></i> 方案管理
                     </a>
                 </li>
@@ -204,7 +206,7 @@
     <div id="page-wrapper">
         <div class="header">
             <h1 class="page-header">
-                订单管理-待提供方案
+                方案管理-我的库
             </h1>
         </div>
         <div id="page-inner">
@@ -215,101 +217,119 @@
                             <div class="row" style="padding: 0 15px;margin-bottom: -10px;">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        <label for="exampleInputName2">订单号</label>
-                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入订单号">
+                                        <label for="exampleInputName2">关键词</label>
+                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入关键词">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputName2">客人姓名</label>
-                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入客人姓名">
+                                        <div data-toggle="distpicker">
+                                            <label for="">出发地</label>
+                                            <select class="form-control" id="province"></select>
+                                            <select class="form-control" id="city"></select>
+                                        </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputName2">客人电话</label>
-                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入客人电话">
+                                        <div data-toggle="distpicker">
+                                            <label for="">目的地</label>
+                                            <select class="form-control" id="country"></select>
+                                            <select class="form-control" id="region"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="tripdays">行程天数</label>
+                                        <input type="number" class="form-control" id="tripdays" placeholder="行程天数">
                                     </div>
                                     <button type="submit" class="btn btn-primary">查询</button>
+                                    <button type="submit" class="btn btn-primary">新建方案</button>
                                 </form>
                             </div>
+
                         </div>
                         <div class="card-content">
-
-
                             <div class="tablists">
                                 <div class="tabinner">
-                                    <div class="tabdetail"><a class="active" href="orders_w_scheme.html">待提供方案</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_scheme_confirm.html">待确认方案</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_contract.html">待提供合同</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_contract_confirm.html">待确认合同</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_start.html">待出发</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_accounting.html">待核算</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_w_accounting_finish.html">已核算</a></div>
-                                    <div class="tabdetail"><a class="" href="orders_canceled.html">已取消</a></div>
+                                    <div class="tabdetail"><a class="active" href="scheme_mine.html">我的库(34)</a></div>
+                                    <div class="tabdetail"><a class="" href="scheme_all.html">公共定制库(12938)</a></div>
                                 </div>
                             </div>
 
                             <div class="clearBoth"><br/></div>
                         </div>
 
+
                         <div class="card-content">
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                     <tr>
-                                        <th class="center">订单号</th>
-                                        <th class="center">提交时间</th>
-                                        <th class="center">类型</th>
+                                        <th class="center">方案名称</th>
                                         <th class="center">出发地</th>
                                         <th class="center">目的地</th>
-                                        <th class="center">往返时间</th>
-                                        <th class="center">预算(每人)</th>
-                                        <th class="center">人数</th>
-                                        <th class="center">状态</th>
+                                        <th class="center">行程天数</th>
+                                        <th class="center">创建时间</th>
+                                        <th class="center">更新时间</th>
+                                        <th class="center">上线状态</th>
                                         <th class="center">操作</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="odd gradeX">
-                                        <td class="center">2017082800101</td>
-                                        <td class="center">2017-08-28 11:20:11</td>
-                                        <td class="center">个人定制</td>
-                                        <td class="center">北京</td>
-                                        <td class="center">美国</td>
-                                        <td class="center">2017-08-28 / 2017-09-08</td>
-                                        <td class="center">12000</td>
-                                        <td class="center">12</td>
-                                        <td class="center">待提供方案</td>
-                                        <td class="center">
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">创建方案</button>
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">取消订单</button>
+                                        <td class="center" style="line-height: 34px;">厦门出发普吉休闲度假游</td>
+                                        <td class="center" style="line-height: 34px;">厦门</td>
+                                        <td class="center" style="line-height: 34px;">普吉岛</td>
+                                        <td class="center" style="line-height: 34px;">5</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <select class="form-control">
+                                                <option>上线</option>
+                                                <option>下线</option>
+                                            </select>
+                                        </td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <button class="btn btn-success" style="padding: 1px 12px !important;height: 25px !important;">预览</button>
+                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">编辑</button>
+                                            <button class="btn btn-info" style="padding: 1px 12px !important;height: 25px !important;">复制</button>
+                                            <button class="btn btn-warning" style="padding: 1px 12px !important;height: 25px !important;">删除</button>
                                         </td>
                                     </tr>
                                     <tr class="odd gradeX">
-                                        <td class="center">2017082800101</td>
-                                        <td class="center">2017-08-28 11:20:11</td>
-                                        <td class="center">个人定制</td>
-                                        <td class="center">北京</td>
-                                        <td class="center">美国</td>
-                                        <td class="center">2017-08-28 / 2017-09-08</td>
-                                        <td class="center">12000</td>
-                                        <td class="center">12</td>
-                                        <td class="center">待提供方案</td>
-                                        <td class="center">
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">创建方案</button>
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">取消订单</button>
+                                        <td class="center" style="line-height: 34px;">厦门出发普吉休闲度假游</td>
+                                        <td class="center" style="line-height: 34px;">厦门</td>
+                                        <td class="center" style="line-height: 34px;">普吉岛</td>
+                                        <td class="center" style="line-height: 34px;">5</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <select class="form-control">
+                                                <option>上线</option>
+                                                <option>下线</option>
+                                            </select>
+                                        </td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <button class="btn btn-success" style="padding: 1px 12px !important;height: 25px !important;">预览</button>
+                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">编辑</button>
+                                            <button class="btn btn-info" style="padding: 1px 12px !important;height: 25px !important;">复制</button>
+                                            <button class="btn btn-warning" style="padding: 1px 12px !important;height: 25px !important;">删除</button>
                                         </td>
                                     </tr>
                                     <tr class="odd gradeX">
-                                        <td class="center">2017082800101</td>
-                                        <td class="center">2017-08-28 11:20:11</td>
-                                        <td class="center">个人定制</td>
-                                        <td class="center">北京</td>
-                                        <td class="center">美国</td>
-                                        <td class="center">2017-08-28 / 2017-09-08</td>
-                                        <td class="center">12000</td>
-                                        <td class="center">12</td>
-                                        <td class="center">待提供方案</td>
-                                        <td class="center">
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">创建方案</button>
-                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">取消订单</button>
+                                        <td class="center" style="line-height: 34px;">厦门出发普吉休闲度假游</td>
+                                        <td class="center" style="line-height: 34px;">厦门</td>
+                                        <td class="center" style="line-height: 34px;">普吉岛</td>
+                                        <td class="center" style="line-height: 34px;">5</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">2017-08-24 18:29:00</td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <select class="form-control">
+                                                <option>上线</option>
+                                                <option>下线</option>
+                                            </select>
+                                        </td>
+                                        <td class="center" style="line-height: 34px;">
+                                            <button class="btn btn-success" style="padding: 1px 12px !important;height: 25px !important;">预览</button>
+                                            <button class="btn btn-primary" style="padding: 1px 12px !important;height: 25px !important;">编辑</button>
+                                            <button class="btn btn-info" style="padding: 1px 12px !important;height: 25px !important;">复制</button>
+                                            <button class="btn btn-warning" style="padding: 1px 12px !important;height: 25px !important;">删除</button>
                                         </td>
                                     </tr>
                                     </tbody>
@@ -342,6 +362,7 @@
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -355,6 +376,12 @@
 
 <!-- Bootstrap Js -->
 <script src="assets/js/bootstrap.min.js"></script>
+
+
+<script src="assets/js/distpicker/distpicker.data.js"></script>
+<script src="assets/js/distpicker/distpicker.js"></script>
+<script src="assets/js/distpicker/main.js"></script>
+
 
 <script src="assets/materialize/js/materialize.min.js"></script>
 
@@ -372,6 +399,24 @@
 
 <!-- Custom Js -->
 <script src="assets/js/custom-scripts.js"></script>
+<!-- Bootstrap DateTime Pickup Js -->
+<script src="assets/js/bootstrap-datetimepicker.js"></script>
+<script src="assets/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script type="text/javascript">
+
+    $('.form_date').datetimepicker({
+        language:  'zh-CN',
+        format: 'yyyy-mm-dd',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+
+</script>
 
 
 </body>
