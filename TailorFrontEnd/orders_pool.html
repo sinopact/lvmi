@@ -47,7 +47,7 @@
             </li>
             <li>
                 <a class="dropdown-button waves-effect waves-dark" href="#!" data-activates="dropdown1">
-                    <i class="fa fa-user fa-fw"></i> <b>定制师名字</b>
+                    <i class="fa fa-user fa-fw"></i> <b id="role-usr">定制师名字</b>
                     <i class="material-icons right">arrow_drop_down</i>
                 </a>
             </li>
@@ -172,23 +172,23 @@
                                 <form class="form-inline">
                                     <div class="form-group">
                                         <label for="exampleInputName2">订单号</label>
-                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="请输入订单号">
+                                        <input type="text" class="form-control" id="orderID" placeholder="请输入订单号">
                                     </div>
                                     <div class="form-group">
                                         <label for="">类型</label>
-                                        <select class="form-control">
+                                        <select class="form-control" id="orderType">
                                             <option>个人定制</option>
                                             <option>公司定制</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
                                         <label for="">状态</label>
-                                        <select class="form-control">
+                                        <select class="form-control" id="orderStaus">
                                             <option>待抢</option>
                                             <option>已抢</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">查询</button>
+                                    <button type="submit" class="btn btn-primary" id="btn-seach">查询</button>
                                     <button class="btn btn-primary">刷新</button>
 
                                 </form>
@@ -318,13 +318,31 @@
 <!-- Custom Js -->
 <script src="assets/js/custom-scripts.js"></script>
 
+<script src="assets/js/laytpl.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
-	$(function() {
-
+(function($, lvmi) {
+	$("#role-usr").html(lvmi.role + " - " + lvmi.username);
+	var getOrderList = function(page, limit) {
+		var orderID = $("#orderID").val();
+		var orderType = $("#orderType").prop("selectedIndex") + 1;
+		var orderStaus = $("#orderStaus").prop("selectedIndex") + 1;
+		$.ajax({
+			type: "post",
+			url : "http://106.15.202.156:8080/api/tailor/order/list",
+			dataType: "json",
+			data: "token=" + lvmi.token + "&order_id=" + orderID + "&order_type=" + orderType + "&type=" + orderStaus + "&page=" + page + "&limit=" + limit,
+			success: function(ret) {
+				console.log(ret);
+				//填充页面。。。
+			}
+		});
+	};
+	$("#btn-seach").click(function() {
+		getOrderList(1, 20);
+		return false;
 	});
+}(jQuery, JSON.parse(localStorage.lvmi)));
 </script>
-
-
 
 </body>
 </html>

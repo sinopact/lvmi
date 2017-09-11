@@ -35,28 +35,28 @@
 <!--表单验证-->
 <script src="assets/js/login/jquery.validate.min.js?var1.14.0"></script>
 <script type="text/javascript">
-	$(function() {
-		$("#btn-login").click(function() {
-			var usr = $("#usr").val();
-			var pwd = $("#pwd").val();
-			if(usr == "" || pwd == "") return;
-			$.ajax({
-				type: "post",
-				url : "http://106.15.202.156:8080/api/user/login",
-				dataType: "json",
-				data: "username=" + usr + "&password=" + pwd,
-				success: function(ret) {
-					if(ret.code == 0) {
-						localStorage.token = ret.data.token;
-						location = "index.html";
-					} else {
-						alert(ret.msg);
-					}
+(function($) {
+	$("#btn-login").click(function() {
+		var usr = $("#usr").val();
+		var pwd = $("#pwd").val();
+		if(usr == "" || pwd == "") return;
+		$.ajax({
+			type: "post",
+			url : "http://106.15.202.156:8080/api/user/login",
+			dataType: "json",
+			data: "username=" + usr + "&password=" + pwd,
+			success: function(ret) {
+				if(ret.code == 0) {
+					localStorage.lvmi = JSON.stringify(ret.data);
+					location = "index.html";
+				} else {
+					alert(ret.msg);
 				}
-			});
-			return false;
+			}
 		});
+		return false;
 	});
+}(jQuery));
 </script>
 </body>
 </html>
